@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pahan History</title>
+    <link rel="stylesheet" href="styleOne.css">
+</head>
+<body>
+    <h1>Виберіть частину тексту</h1>
+
+    <div class="buttons">
+        <button onclick="loadText('text1.txt', 'content1')">Частина перша</button>
+        <button onclick="loadText('text2.txt', 'content2')">Частина друга</button>
+        <button onclick="loadText('text3.txt', 'content3')">Частина третя</button>
+        <button onclick="loadText('text4.txt', 'content4')">Частина четверта</button>
+    </div>
+
+    <div id="content1" class="content"></div>
+    <div id="content2" class="content"></div>
+    <div id="content3" class="content"></div>
+    <div id="content4" class="content"></div>
+
+    <script src="scriptOne.js"></script>
+</body>
+</html>
